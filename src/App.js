@@ -1,15 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Alert from 'react-bootstrap/Alert';
+// import { Alert, Button } from 'react-bootstrap';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
     return (
-        <div className='App'>
-            <header className='App-header'>
-                Web Dev Progress Tracker
-                <Alert variant='success'>Bootstrap up and running!</Alert>
-            </header>
-        </div>
+        <>
+            <Header />
+            <Alert variant='success'>Bootstrap up and running!</Alert>
+        </>
     );
 }
 

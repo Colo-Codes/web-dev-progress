@@ -8,8 +8,6 @@ function AddTopic(props) {
         show: false,
     });
 
-    console.log(state.show);
-
     const addTopicModal = (
         <Modal show={state.show} onHide={() => {}}>
             <Modal.Header closeButton>

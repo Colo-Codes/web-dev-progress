@@ -12,7 +12,7 @@ function Header() {
                         <User />
                     </Col>
                     <Col>
-                        <ProgressDigest now={60} />
+                        <ProgressDigest now={75} />
                     </Col>
                 </Row>
             </Card>
